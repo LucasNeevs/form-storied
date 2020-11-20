@@ -15,7 +15,7 @@ export const Validation = Yup.object().shape({
     .date()
     .nullable()
     .min(new Date(1930, 1, 1))
-    .required(),
+    .required('This field is required!'),
   gender: Yup
     .number()
     .required('This field is required!'),

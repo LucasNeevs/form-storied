@@ -8,7 +8,6 @@ import {
 import { MuiPickersUtilsProvider, KeyboardDatePicker } from '@material-ui/pickers';
 import { withFormik, FormikProps } from 'formik';
 import { MaterialUiPickersDate } from '@material-ui/pickers/typings/date';
-import Moment from 'moment';
 import { IForm, IGender } from './Form.types';
 import { initialValues, Genders } from './Form.utils';
 import { Validation } from './Form.validation';
